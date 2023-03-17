@@ -14,5 +14,5 @@ COPY . .
 RUN g++ -o hellouniverse app/index.cpp
 
 # Set the entrypoint for the container
-ENTRYPOINT ["hellouniverse/app"]
+ENTRYPOINT ["HelloUniverse/app"]
 
